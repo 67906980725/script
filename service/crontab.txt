@@ -1,0 +1,6 @@
+
+0 * * * * python3 /home/v/.local/script/service/rsync.py
+
+00,30 * * * * systemctl restart create_ap
+
+
